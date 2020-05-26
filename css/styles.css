@@ -1,0 +1,152 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 3% 14%;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.fas fa-check-circle {
+  color: #ef8172;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 12%;
+  font-family: "montserrat-bold";
+  background-color: #fff;
+  position: relative;
+}
+
+#testimonials {
+  /* padding: 3% 14%; */
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 7% 12%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-paragraph {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c86;
+}
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 12%;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 7% 12%;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  margin: 0% 2% 5% 2%;
+  color: black;
+}
